@@ -74,7 +74,7 @@ public class Test_Dominos {
 		driver.switchTo().window(tabs.get(0));
 		Thread.sleep(5000);
 		// Verify Order Menu Page
-		String ExpURL = "https://pizzaonline.dominos.co.in/menu";
+		String ExpURL = "https://dpizzaonline.dominos.co.in/menu";
 		String ActURL = driver.getCurrentUrl();
 		Assert.assertEquals(ActURL, ExpURL);
 	}
